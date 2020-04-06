@@ -9,13 +9,14 @@ Created on Mon Mar  9 11:19:19 2020
 import math as mt
 import turtle
 # creates turtle window
-turtle.setup(width=1000,height=800,startx=-40,starty=0) 
+turtle.setup(width=1000,height=800) 
 wn = turtle.Screen() 
 wn.title("Pokeball")
 wn.bgcolor("White") 
 #wn.tracer(50)
 pb = turtle.Turtle() 
 pb.hideturtle()
+pb.speed(0)
 # some intialized variables
 x = 0
 y = 0
